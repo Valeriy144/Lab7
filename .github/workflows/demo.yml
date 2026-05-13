@@ -1,0 +1,10 @@
+name: CI DEMO
+
+on: [push]
+
+jobs:
+  build:
+      runs-on: ubuntu-latest
+      steps:
+        name: Say Hello
+        run: echo "Hello Git"
